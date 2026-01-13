@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-item',
   standalone: true,
   imports: [],
-  templateUrl: './item.component.html',
-  styleUrl: './item.component.css'
+  templateUrl: './dashboard-item.component.html',
+  styleUrl: './dashboard-item.component.css'
 })
 export class ItemComponent {
 
