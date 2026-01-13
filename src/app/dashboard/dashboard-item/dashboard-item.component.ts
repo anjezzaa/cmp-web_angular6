@@ -1,7 +1,7 @@
 import { Component, input, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-item',
+  selector: 'app-dashboard-item',
   standalone: true,
   imports: [],
   templateUrl: './dashboard-item.component.html',
