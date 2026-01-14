@@ -11,9 +11,16 @@ import { Component, input, ViewEncapsulation } from '@angular/core';
   //host
   host: {
     //adds key values added here as properties on host element
-    class: 'control'
+    class: 'control',
+    '(click)' : 'onClick()',
   }
 })
 export class ControlComponent {  
+  // @HostListener('click')
   label  = input.required<string>();
+
+  onClick() {
+    console.log('Clicked!');
+  }
+
 }
