@@ -9,6 +9,6 @@ import { Component, input, ViewEncapsulation } from '@angular/core';
   //enum
   encapsulation: ViewEncapsulation.None,
 })
-export class ControlComponent {
+export class ControlComponent {  
   label  = input.required<string>();
 }
