@@ -1,9 +1,9 @@
 <div 
 [class]="{
-    status: true,
+  status: true,
   'status-online': currentStatus === 'online',
   'status-offline': currentStatus === 'offline',
-  'status-unknown': currentStatus === 'unknown'
+  'status-unknown': currentStatus === 'unknown',
 }">
 
   @if (currentStatus === 'online') {
