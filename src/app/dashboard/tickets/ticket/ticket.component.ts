@@ -12,6 +12,7 @@ import { Ticket } from './ticket.model';
 export class TicketComponent {
   // @Input 
   data = input.required<Ticket>();
+  // @Output
   close = output();
   detailsVisible = signal(false);
 
