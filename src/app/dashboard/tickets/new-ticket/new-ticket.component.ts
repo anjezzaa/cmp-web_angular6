@@ -11,9 +11,10 @@ import { FormsModule } from '@angular/forms'
 })
 export class NewTicketComponent {
 titleInput: HTMLInputElement | undefined;
-    onSubmit(title:string, ticketText:string) {
+    onSubmit(title:string, ticketText:string, form: HTMLFormElement) {
       console.log(title);
       console.log(ticketText);
+      form.reset();
     }
 
 }
